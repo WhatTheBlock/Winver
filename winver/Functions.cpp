@@ -278,7 +278,7 @@ BOOLEAN DrawStrings(HWND hWnd, Graphics& graphics)
 		emSize = (9.0 * dpi / 96);
 	else
 		emSize = 9.0;
-	FontFamily      fontFamily(L"Segoe UI Variable Small");
+	FontFamily      fontFamily(L"Segoe UI");
 	Gdiplus::Font   font(&fontFamily, emSize);
 	
 	graphics.DrawString(MsWin, -1, &font, ScaledPointF(PointF(45, 100), dpi), DarkThemeEnabled ? &darkmodetext : &lightmodetext);
@@ -308,7 +308,7 @@ BOOLEAN DrawE(HWND hWnd, Graphics& graphics)
 	else
 		emSize = 100.0;
 
-	FontFamily      fontFamily(L"Segoe UI Variable Small");
+	FontFamily      fontFamily(L"Segoe UI");
 	Gdiplus::Font   font(&fontFamily, emSize);
 
 	graphics.DrawString(L"E", -1, &font, ScaledPointF(PointF(170, 100), dpi), DarkThemeEnabled ? &darkmodetext : &lightmodetext);
@@ -441,7 +441,7 @@ BOOL CustomDrawButton(LPARAM lParam, HWND hWnd)
 		stringFormat.SetAlignment(StringAlignmentCenter);
 		stringFormat.SetLineAlignment(StringAlignmentCenter);
 		Gdiplus::REAL emSize = 9.0;
-		FontFamily      fontFamily(L"Segoe UI Variable Small");
+		FontFamily      fontFamily(L"Segoe UI");
 		Gdiplus::Font   font(&fontFamily, emSize);
 		if (item->uItemState & CDIS_SELECTED)
 		{

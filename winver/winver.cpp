@@ -122,6 +122,21 @@ void SetProperWindowDimensions(LANGID yes)
 			BitmapX = 55;
 			break;
 		}
+		case LANG_CHINESE_TRADITIONAL:
+		{
+			Window_Width = 470;
+			Window_Height = 385;
+			EulaY = 260;
+			CopyWidth = 385;
+			CopyY = 165;
+			OwnerY = 290;
+			OrganizationY = 297;
+			ButtonX = 386;
+			ButtonY = 349;
+			EulaWidth = 345;
+			BitmapX = 55;
+			break;
+		}
 		case LANG_RUSSIAN:
 		{
 			Window_Width = 475;
