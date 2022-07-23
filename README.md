@@ -1,10 +1,10 @@
 # Winver
-![GitHub top language](https://img.shields.io/github/languages/top/rounk-ctrl/winver)
-![Lines of code](https://img.shields.io/tokei/lines/github/rounk-ctrl/winver)
-![License](https://img.shields.io/github/license/rounk-ctrl/winver)
-[![CodeFactor](https://www.codefactor.io/repository/github/rounk-ctrl/winver/badge)](https://www.codefactor.io/repository/github/rounk-ctrl/winver)
+![GitHub top language](https://img.shields.io/github/languages/top/whattheblock/winver)
+![Lines of code](https://img.shields.io/tokei/lines/github/whattheblock/winver)
+![License](https://img.shields.io/github/license/whattheblock/winver)
+[![CodeFactor](https://www.codefactor.io/repository/github/whattheblock/winver/badge)](https://www.codefactor.io/repository/github/whattheblock/winver)
 
-win32 real
+![demo](/demo.png)
 
 ### Languages added:
  - Polish
@@ -12,6 +12,7 @@ win32 real
  - German
  - Hungarian
  - Vietnamese
- - Chinese simplified
+ - Chinese Simplified
+ - Chinese Traditional
  - Italian
  - Russian
